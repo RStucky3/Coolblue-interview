@@ -3,6 +3,10 @@ declare(strict_types=1);
 
 namespace Coolblue\Interview\Repository;
 
+require_once '../src/Entity/ShoppingCart.php';
+require_once '../src/Entity/ShoppingCartItem.php';
+require_once '../src/Entity/ShoppingCartLine.php';
+
 use Coolblue\Interview\Entity\ShoppingCart;
 use Coolblue\Interview\Entity\ShoppingCartItem;
 use Coolblue\Interview\Entity\ShoppingCartLine;

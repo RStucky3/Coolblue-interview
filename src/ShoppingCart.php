@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace Coolblue\Interview;
 
 use Coolblue\Interview\Repository\ShoppingCartRepository;
-
+require_once 'Repository/ShoppingCartRepository.php';
 class ShoppingCart
 {
     /** @var \Coolblue\Interview\Entity\ShoppingCart */
