@@ -2,25 +2,25 @@
 <html>
     <head>
         <title>Coolblue Shopping Cart</title>
-        <style>
-            body {
-                font-family: sans-serif;
-            }
-
-            table {
-                width: 100%;
-            }
-
-            table th {
-                text-align: left;
-                font-size: 125%;
-            }
-
-            table td {
-                padding-bottom: 2rem;
-            }
-        </style>
     </head>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table th {
+            text-align: left;
+            font-size: 125%;
+        }
+
+        table td {
+            padding-bottom: 2rem;
+        }
+    </style>
     <body>
         <table>
             <thead>

@@ -1,4 +1,4 @@
-# Coolblue interview assignment
+ # Coolblue interview assignment
 
 Welcome to the Coolblue interview assignment. 
 Before you appears a small codebase, whose simple purpose it is to retrieve shopping cart information from a database and display it to the browser. As you can undoubtedly see this codebase has various issues:

@@ -15,10 +15,19 @@ class ShoppingCartRepository
 {
     /** @var \PDO */
     private $connection;
+    private $engine;
+    private $dbname = "coolblue";
+    private $username = "interview";
+    private $password = "interview";
 
     public function __construct()
     {
-        $this->connection = new \PDO("mysql:host=interview_mysql;dbname=coolblue", "interview", "interview");
+        $this->setEngine("mysql");
+        $this->connection = new \PDO("$this->engine:host=interview_mysql;dbname=$this->dbname", "$this->username", "$this->password");
+    }
+
+    public function setEngine($engine){
+        $this->engine = $engine;
     }
 
     /**
